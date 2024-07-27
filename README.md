@@ -31,7 +31,6 @@ This project implements a robust user authentication API with features including
 12. [Security Features](#security-features)
 13. [Error Handling](#error-handling)
 14. [Contributing](#contributing)
-15. [License](#license)
 
 
 ## Features
@@ -243,7 +242,3 @@ The API includes basic error handling and logging. Ensure proper logging configu
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests to improve the project.
-
-## License
-
-[Add your chosen license here]
