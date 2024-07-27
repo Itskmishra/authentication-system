@@ -43,15 +43,12 @@ const userRouter = Router();
  *               - username
  *               - email
  *               - password
- *               - role
  *             properties:
  *               username:
  *                 type: string
  *               email:
  *                 type: string
  *               password:
- *                 type: string
- *               role:
  *                 type: string
  *     responses:
  *       201:
@@ -356,9 +353,6 @@ userRouter.delete("/delete", isAuthenticated, delete_user);
  *           type: string
  *           format: date-time
  *           description: Expiration time for the password reset token
- *         role:
- *           type: string
- *           description: The user's role
  *         createdAt:
  *           type: string
  *           format: date-time
